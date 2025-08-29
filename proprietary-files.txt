@@ -2,7 +2,7 @@
 ## are from Redmi K60 Pro (OS2.0.206.0.VMKCNXM).
 
 # libmcs depends on libar-acdb, libats and liblx-osal, which are gnu makefile targets
-# libqtigefar depends on libar-pal, which is a gnu makefile target
+# libqtigefar and sound_trigger.primary.kalama depends on libar-pal, which is a gnu makefile target
 
 # ACDBs
 vendor/etc/acdbdata/IDP_UPD/IDP_UPD_acdb_cal.acdb
@@ -113,6 +113,9 @@ vendor/lib64/libvui_dmgr_client.so
 vendor/lib64/libxlog.so
 vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0.so
+# Next 2 libs are from Xiaomi 13 (OS2.0.203.0.VMCCNXM)
+vendor/lib/hw/sound_trigger.primary.kalama.so|a069c933e75cd64700c63afbb7fedfd1f49b4596
+vendor/lib64/hw/sound_trigger.primary.kalama.so|f0f803d2d04de0f01cd8d0a3df251c011caf8a30
 
 # Audio FX modules
 vendor/lib64/soundfx/libasphere.so
@@ -941,7 +944,7 @@ odm/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc
 odm/etc/libnfc-nci.conf
 odm/etc/libnfc-nxp.conf
 odm/etc/libnfc-nxp_RF.conf
-odm/etc/permissions/android.hardware.nfc.beam.xml
+# odm/etc/permissions/android.hardware.nfc.beam.xml
 odm/lib64/libstnfc-auth.so
 odm/lib64/nfc_nci.nqx.default.hw.so
 odm/lib64/nfc_nci.st21nfc.st.so

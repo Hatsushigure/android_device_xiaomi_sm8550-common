@@ -113,9 +113,8 @@ vendor/lib64/libvui_dmgr_client.so
 vendor/lib64/libxlog.so
 vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0.so
-# Next 2 libs are from Xiaomi 13 (OS2.0.203.0.VMCCNXM)
-vendor/lib/hw/sound_trigger.primary.kalama.so|a069c933e75cd64700c63afbb7fedfd1f49b4596
-vendor/lib64/hw/sound_trigger.primary.kalama.so|f0f803d2d04de0f01cd8d0a3df251c011caf8a30
+# sound_trigger.primary.kalama.so from Xiaomi 13 (OS2.0.203.0.VMCCNXM)
+vendor/lib64/hw/sound_trigger.primary.kalama.so|f0f803d2d04de0f01cd8d0a3df251c011caf8a30;DISABLE_CHECKELF
 
 # Audio FX modules
 vendor/lib64/soundfx/libasphere.so
